@@ -1,16 +1,20 @@
-/* Modifications */
-
-.partenaires{
+@font-face{
+    font-family: "Protest";
+    src: url("fonts/protest.ttf") format("ttf");
+}
+.texte-centré{
     text-align: center;
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    font-family: "protest";
+    font-weight: bold;
+    font-size: 1.6em;
 }
-
-.list-partenaires{
-    list-style-type: none;
+#texte2{
+    font-weight: normal;
+    font-size: 0.9em;
 }
-
-/* Fin des modifications */
-
-
 
 body {
     margin: 0;
@@ -19,6 +23,14 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.partenaires{
+    text-align: center;
+}
+
+.list-partenaires{
+    list-style-type: none;
 }
 
 a,
@@ -377,6 +389,9 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    .texte-centré{
+        max-width: 500px;
+    }
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -1043,9 +1058,15 @@ h4 {
 }
 
 @media (max-width: 400px) {
+    .texte-centré{
+        max-width: 280px;
+    }
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .link{
+        text-align: center;
     }
 }
 
