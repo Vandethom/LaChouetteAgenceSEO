@@ -1,3 +1,17 @@
+/* Modifications */
+
+.partenaires{
+    text-align: center;
+}
+
+.list-partenaires{
+    list-style-type: none;
+}
+
+/* Fin des modifications */
+
+
+
 body {
     margin: 0;
     padding: 0;
