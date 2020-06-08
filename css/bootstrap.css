@@ -5,6 +5,10 @@
  */
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@font-face{
+    font-family: "Protest";
+    src: url("fonts/protest.ttf") format("ttf");
+}
 
 html {
     font-family: sans-serif;
@@ -2063,10 +2067,23 @@ pre code {
 .col-xs-7,
 .col-xs-8,
 .col-xs-9 {
+    text-align: center;
     position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px
+    width: 700px;
+    
+}
+.texte-centré{
+    text-align: center;
+    position: relative;
+    width: 500px;
+    margin: auto;
+    font-family: "protest";
+    font-weight: bold;
+    font-size: 1.6em;
+}
+#texte2{
+    font-weight: normal;
+    font-size: 0.9em;
 }
 
 .col-xs-1,
