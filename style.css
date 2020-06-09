@@ -1,3 +1,15 @@
+.ancre{
+    background-color: #cccccc;
+    opacity: 0.5;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
 @font-face{
     font-family: "Protest";
     src: url("fonts/protest.ttf") format("ttf");
