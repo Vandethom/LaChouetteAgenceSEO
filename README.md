@@ -10,6 +10,11 @@ A full code given by OpenClassrooms to be corrected. What was revisited mainly w
  - A full check of LightHouse and Wave
  - Minifying CSS and JS files
  - Correcting images sizes to fit their container
+ - Add of an anchor to the top of the page
+ - Correction of the broken burger menu on contact page
 
 You can compare it with the original La Chouette Agence Website :
 https://github.com/Vandethom/LaChouetteAgencePreSEO
+
+The corrected version can be visited here :
+https://vandethom.github.io/LaChouetteAgenceSEO/
