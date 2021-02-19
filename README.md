@@ -1,4 +1,4 @@
-# LaChouetteAgencePreSEO
+# LaChouetteAgenceSEO
 
 OpenClassrooms' project 4 on SEO and accessibility.
 
